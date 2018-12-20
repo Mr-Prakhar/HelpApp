@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student_LodgeActivity">
+
+
+            <!--Put form controls here-->
+
+    <TextView
+        android:id="@+id/TextViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="29dp"
+        android:text="Complaint Form "
+        android:textAlignment="center"
+        android:textSize="10pt"
+        android:textStyle="bold"></TextView>
+
+
+    <EditText
+        android:id="@+id/Mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_below="@+id/place"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="21dp"
+        android:hint="Mobile Number"
+        android:inputType="number" />
+
+
+
+    <EditText
+        android:id="@+id/Stuname"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextViewTitle"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="22dp"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/place"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="182dp"
+        android:layout_marginEnd="22dp"
+        android:hint="Place" />
+
+
+    <EditText
+        android:id="@+id/EditTextFeedbackBody"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="256dp"
+        android:ems="10"
+        android:hint="Complaint details"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/lbutton"
+        android:layout_width="173dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/button"
+        android:text="Upload Complaint" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="199dp"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/lbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-13dp"
+        android:layout_marginBottom="148dp"
+        android:background="@drawable/button"
+        android:text="Select Image" />
+
+
+</RelativeLayout>

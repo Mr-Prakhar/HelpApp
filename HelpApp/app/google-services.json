@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "157058423710",
+    "firebase_url": "https://helpapp-22ff4.firebaseio.com",
+    "project_id": "helpapp-22ff4",
+    "storage_bucket": "helpapp-22ff4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157058423710:android:c9055b8cf2716986",
+        "android_client_info": {
+          "package_name": "com.apkglobal.helpapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157058423710-4hm5ueqfceo5ak3tnesnf2nmi4e3sg26.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXWk2SCK3t0lyC-kxA7fBHA3aWIT3CW_c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
